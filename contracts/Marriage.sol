@@ -19,7 +19,7 @@ contract Marriage {
     /// @notice Marriage recognized by the registry no i.e uin256
     /// It is confidential data, shouldn't be seen by everyone. 
     
-    /* Fix_1(2): Put restrict the access of the data */
+    /* Fix_1(2): Put restrict the access of the data, hello */
     mapping(uint256 => Couple) public coupleData;
     
     /// @notice true refers to user get married, False refers to opposite
